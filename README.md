@@ -1,6 +1,7 @@
-# Combos
+# Combos/ButtonBrawl
 Casual fighting game insprired reflex game (prototype)
 
+![logo](https://github.com/chriscomeau/Portfolio/blob/master/images/combo_icon.PNG)
 
 
 ##### Notes
@@ -19,4 +20,6 @@ Casual fighting game insprired reflex game (prototype)
 
 ##### Screenshot
 
-...	
+![screenshot 1](https://github.com/chriscomeau/Combos/blob/master/images/combo1.PNG)
+![screenshot 2](https://github.com/chriscomeau/Combos/blob/master/images/combo2.PNG)
+![screenshot 3](https://github.com/chriscomeau/Combos/blob/master/images/combo3.PNG)
