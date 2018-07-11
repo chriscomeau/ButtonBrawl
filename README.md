@@ -6,7 +6,7 @@ Casual fighting game insprired reflex game (prototype)
 
 ##### Notes
 
-* Skyriser Media, ???
+* Skyriser Media, 2014
 * Objective-C 
 * SpriteKit, UIKit, CoreAnimation
 
