@@ -1,0 +1,44 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #include <stdlib.h>
+    #import <AVFoundation/AVFoundation.h>
+    #import <SpriteKit/SpriteKit.h>
+    #import "NSString+Utilities.h"
+    #import "UIView+GCLibrary.h"
+
+    #import "SoundManager.h"
+
+    #import "SIAlertView.h"
+
+    //#import "AGSpriteButton.h"
+    #import "STSpriteKit.h"
+    //#import "TouchPriority.h"
+    #import "UIImage+CJImageMerge.h"
+    #import "NSArray+Shuffle.h"
+    #import "UIAlertView+Blocks.h"
+    #import <EXTScope.h>
+    #import <GAI.h>
+
+    #import "Config.h"
+    #import "JoystickMemoryAppDelegate.h"
+    #import "Helpers.h"
+
+    //#import "GameKitHelper.h"
+    #import "GameCenterManager.h"
+
+
+#endif

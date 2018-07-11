@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D4EF4603D162679575F1804 /* libPods-Joystick Memory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E625EF3986961E15B9A4EACD /* libPods-Joystick Memory.a */; };
+		83001EAF198DAD570099457D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83001EAE198DAD570099457D /* Foundation.framework */; };
+		83001EB1198DAD570099457D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83001EB0198DAD570099457D /* CoreGraphics.framework */; };
+		83001EB3198DAD570099457D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83001EB2198DAD570099457D /* UIKit.framework */; };
+		83001EB5198DAD570099457D /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83001EB4198DAD570099457D /* SpriteKit.framework */; };
+		83001EBB198DAD570099457D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83001EB9198DAD570099457D /* InfoPlist.strings */; };
+		83001EBD198DAD570099457D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83001EBC198DAD570099457D /* main.m */; };
+		83001EC1198DAD570099457D /* JoystickMemoryAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83001EC0198DAD570099457D /* JoystickMemoryAppDelegate.m */; };
+		83001EC4198DAD570099457D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83001EC2198DAD570099457D /* Main.storyboard */; };
+		83001EC7198DAD570099457D /* JoystickMemoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83001EC6198DAD570099457D /* JoystickMemoryViewController.m */; };
+		83001ECA198DAD570099457D /* JoystickMemoryMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 83001EC9198DAD570099457D /* JoystickMemoryMyScene.m */; };
+		83001EF1198DAFD10099457D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EEB198DAFD10099457D /* Default-568h@2x.png */; };
+		83001EF2198DAFD10099457D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EEC198DAFD10099457D /* Default@2x.png */; };
+		83001EF3198DAFD10099457D /* icon60.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EED198DAFD10099457D /* icon60.png */; };
+		83001EF4198DAFD10099457D /* icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EEE198DAFD10099457D /* icon120.png */; };
+		83001F00198DB52F0099457D /* button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EFC198DB52F0099457D /* button_down.png */; };
+		83001F01198DB52F0099457D /* button_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EFD198DB52F0099457D /* button_down@2x.png */; };
+		83001F02198DB52F0099457D /* button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EFE198DB52F0099457D /* button_up.png */; };
+		83001F03198DB52F0099457D /* button_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001EFF198DB52F0099457D /* button_up@2x.png */; };
+		83001F05198DC11D0099457D /* click1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83001F04198DC11C0099457D /* click1.wav */; };
+		83001F09198DC5AB0099457D /* ARCADE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 83001F08198DC5AB0099457D /* ARCADE.TTF */; };
+		83001F0C198DC8FA0099457D /* click2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83001F0A198DC8FA0099457D /* click2.wav */; };
+		83001F0D198DC8FA0099457D /* click3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83001F0B198DC8FA0099457D /* click3.wav */; };
+		83001F10198DCF620099457D /* glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001F0E198DCF620099457D /* glow.png */; };
+		83001F11198DCF620099457D /* glow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001F0F198DCF620099457D /* glow@2x.png */; };
+		83001F14198DDF9F0099457D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001F12198DDF9F0099457D /* background.png */; };
+		83001F15198DDF9F0099457D /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001F13198DDF9F0099457D /* background@2x.png */; };
+		83001F19198DE2520099457D /* Particle1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83001F17198DE2520099457D /* Particle1.sks */; };
+		83001F1F198DE4520099457D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 83001F1D198DE4520099457D /* spark.png */; };
+		83001F25198DE53E0099457D /* Particle2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83001F24198DE53E0099457D /* Particle2.sks */; };
+		83001F29198DE63A0099457D /* NSString+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 83001F28198DE63A0099457D /* NSString+Utilities.m */; };
+		83001F2E198DE6F60099457D /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 83001F2D198DE6F60099457D /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8322EF8819AE33460040FC50 /* background_game.png in Resources */ = {isa = PBXBuildFile; fileRef = 8322EF8619AE33460040FC50 /* background_game.png */; };
+		8322EF8919AE33460040FC50 /* background_game@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8322EF8719AE33460040FC50 /* background_game@2x.png */; };
+		8322EF8E19AE3A730040FC50 /* powerdown1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8322EF8D19AE3A730040FC50 /* powerdown1.mp3 */; };
+		832760B319B5FCD700EB53B7 /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 832760B019B5FCD700EB53B7 /* GameCenterManager.m */; };
+		832760B419B5FCD700EB53B7 /* NSDataAES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 832760B219B5FCD700EB53B7 /* NSDataAES256.m */; };
+		8328CF8C19AB7D0D00C7D2C3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8328CF8919AB7D0D00C7D2C3 /* SVProgressHUD.bundle */; };
+		8328CF8D19AB7D0D00C7D2C3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8328CF8B19AB7D0D00C7D2C3 /* SVProgressHUD.m */; };
+		8328CF8F19AB7F9A00C7D2C3 /* wrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8328CF8E19AB7F9A00C7D2C3 /* wrong.wav */; };
+		83299C0B19ACC68D005DD602 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C0919ACC68D005DD602 /* replay.png */; };
+		83299C0C19ACC68D005DD602 /* replay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C0A19ACC68D005DD602 /* replay@2x.png */; };
+		83299C1119ACD2CA005DD602 /* overlayStart.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C0D19ACD2CA005DD602 /* overlayStart.png */; };
+		83299C1219ACD2CA005DD602 /* overlayStart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C0E19ACD2CA005DD602 /* overlayStart@2x.png */; };
+		83299C1319ACD2CA005DD602 /* overlayWrong.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C0F19ACD2CA005DD602 /* overlayWrong.png */; };
+		83299C1419ACD2CA005DD602 /* overlayWrong@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C1019ACD2CA005DD602 /* overlayWrong@2x.png */; };
+		83299C1719AD053E005DD602 /* JoystickMemoryStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83299C1619AD053E005DD602 /* JoystickMemoryStoreViewController.m */; };
+		83299C1A19AD0B74005DD602 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C1819AD0B74005DD602 /* title.png */; };
+		83299C1B19AD0B74005DD602 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C1919AD0B74005DD602 /* title@2x.png */; };
+		83299C1F19AD204C005DD602 /* voice_again.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C1C19AD204C005DD602 /* voice_again.mp3 */; };
+		83299C2019AD204C005DD602 /* voice_fight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C1D19AD204C005DD602 /* voice_fight.mp3 */; };
+		83299C2119AD204C005DD602 /* voice_ready.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C1E19AD204C005DD602 /* voice_ready.mp3 */; };
+		83299C2319AD20EC005DD602 /* voice_combo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C2219AD20EC005DD602 /* voice_combo.mp3 */; };
+		83299C2919AD2745005DD602 /* voice_lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C2419AD2745005DD602 /* voice_lose.mp3 */; };
+		83299C2A19AD2745005DD602 /* voice_levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C2519AD2745005DD602 /* voice_levelup.mp3 */; };
+		83299C2B19AD2745005DD602 /* voice_timeout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C2619AD2745005DD602 /* voice_timeout.mp3 */; };
+		83299C2C19AD2745005DD602 /* voice_win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C2719AD2745005DD602 /* voice_win.mp3 */; };
+		83299C2D19AD2745005DD602 /* voice_perfect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C2819AD2745005DD602 /* voice_perfect.mp3 */; };
+		83299C2F19AD2E53005DD602 /* clock_tick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 83299C2E19AD2E53005DD602 /* clock_tick.mp3 */; };
+		83299C3219AD39D9005DD602 /* credits_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C3019AD39D9005DD602 /* credits_back.png */; };
+		83299C3319AD39D9005DD602 /* credits_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83299C3119AD39D9005DD602 /* credits_back@2x.png */; };
+		832EDFE719AAC14D003A2B86 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EDFE619AAC14D003A2B86 /* Helpers.m */; };
+		832EDFF019AAC265003A2B86 /* RIButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EDFEB19AAC265003A2B86 /* RIButtonItem.m */; };
+		832EDFF119AAC265003A2B86 /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EDFED19AAC265003A2B86 /* UIActionSheet+Blocks.m */; };
+		832EDFF219AAC265003A2B86 /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EDFEF19AAC265003A2B86 /* UIAlertView+Blocks.m */; };
+		832EDFF519AAC288003A2B86 /* UIButton+Position.m in Sources */ = {isa = PBXBuildFile; fileRef = 832EDFF419AAC288003A2B86 /* UIButton+Position.m */; };
+		832EDFF819AACFF0003A2B86 /* joystick_ball_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EDFF619AACFF0003A2B86 /* joystick_ball_down.png */; };
+		832EDFF919AACFF0003A2B86 /* joystick_ball_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EDFF719AACFF0003A2B86 /* joystick_ball_down@2x.png */; };
+		832EDFFC19AAD207003A2B86 /* joystick_ball_glow.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EDFFA19AAD207003A2B86 /* joystick_ball_glow.png */; };
+		832EDFFD19AAD207003A2B86 /* joystick_ball_glow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 832EDFFB19AAD207003A2B86 /* joystick_ball_glow@2x.png */; };
+		834B8D471994066200284E54 /* Crimes Times Six.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D431994066200284E54 /* Crimes Times Six.ttf */; };
+		834B8D481994066200284E54 /* FEASFBI_.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D441994066200284E54 /* FEASFBI_.TTF */; };
+		834B8D491994066200284E54 /* FEASFBRG.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D451994066200284E54 /* FEASFBRG.TTF */; };
+		834B8D4A1994066200284E54 /* Monsters Attack! 1937.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D461994066200284E54 /* Monsters Attack! 1937.TTF */; };
+		834B8D4C19940F9800284E54 /* coin2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D4B19940F9800284E54 /* coin2.wav */; };
+		834B8D4E1994103000284E54 /* coin3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D4D1994103000284E54 /* coin3.wav */; };
+		834B8D5119941CC800284E54 /* Disorient Pixels.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D4F19941CC800284E54 /* Disorient Pixels.ttf */; };
+		834B8D5219941CC800284E54 /* Open 24 Display St.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 834B8D5019941CC800284E54 /* Open 24 Display St.ttf */; };
+		836C9F44199282C700BD7A1D /* music1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 836C9F41199282C700BD7A1D /* music1.wav */; };
+		836C9F45199282C700BD7A1D /* music2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 836C9F42199282C700BD7A1D /* music2.wav */; };
+		836C9F46199282C700BD7A1D /* music3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 836C9F43199282C700BD7A1D /* music3.wav */; };
+		836C9F4A1992868F00BD7A1D /* glow_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 836C9F481992868F00BD7A1D /* glow_red.png */; };
+		836C9F4B1992868F00BD7A1D /* glow_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836C9F491992868F00BD7A1D /* glow_red@2x.png */; };
+		836C9F5119928A0000BD7A1D /* NSArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 836C9F4F19928A0000BD7A1D /* NSArray+Shuffle.m */; };
+		836C9F541992B59900BD7A1D /* 1player.png in Resources */ = {isa = PBXBuildFile; fileRef = 836C9F521992B59900BD7A1D /* 1player.png */; };
+		836C9F551992B59900BD7A1D /* 1player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 836C9F531992B59900BD7A1D /* 1player@2x.png */; };
+		836E444C19B52B3900B4717F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 836E444B19B52B3900B4717F /* GameKit.framework */; };
+		8397B1AD19AF8E3A0038E285 /* overlayTimesout.png in Resources */ = {isa = PBXBuildFile; fileRef = 8397B1AB19AF8E3A0038E285 /* overlayTimesout.png */; };
+		8397B1AE19AF8E3A0038E285 /* overlayTimesout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8397B1AC19AF8E3A0038E285 /* overlayTimesout@2x.png */; };
+		83BC1170198FD01200E7A2F2 /* JoystickMemoryLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC116F198FD01200E7A2F2 /* JoystickMemoryLoadingViewController.m */; };
+		83BC1172198FD08200E7A2F2 /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC1171198FD08200E7A2F2 /* loading@2x.png */; };
+		83BC1175198FD11300E7A2F2 /* JoystickMemoryHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC1174198FD11300E7A2F2 /* JoystickMemoryHomeViewController.m */; };
+		83BC1177198FD1D900E7A2F2 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC1176198FD1D900E7A2F2 /* loading.png */; };
+		83BC117B198FD26A00E7A2F2 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC1179198FD26A00E7A2F2 /* home.png */; };
+		83BC117C198FD26A00E7A2F2 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC117A198FD26A00E7A2F2 /* home@2x.png */; };
+		83BC1180198FD6E400E7A2F2 /* home_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC117E198FD6E300E7A2F2 /* home_play.png */; };
+		83BC1181198FD6E400E7A2F2 /* home_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC117F198FD6E400E7A2F2 /* home_play@2x.png */; };
+		83BC118B198FF5E700E7A2F2 /* unclick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83BC118A198FF5E700E7A2F2 /* unclick.wav */; };
+		83BC119819900A0800E7A2F2 /* button_white_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC119419900A0800E7A2F2 /* button_white_down.png */; };
+		83BC119919900A0800E7A2F2 /* button_white_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC119519900A0800E7A2F2 /* button_white_down@2x.png */; };
+		83BC119A19900A0800E7A2F2 /* button_white_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC119619900A0800E7A2F2 /* button_white_up.png */; };
+		83BC119B19900A0800E7A2F2 /* button_white_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC119719900A0800E7A2F2 /* button_white_up@2x.png */; };
+		83BC119E1990115600E7A2F2 /* joystick_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC119C1990115600E7A2F2 /* joystick_back.png */; };
+		83BC119F1990115600E7A2F2 /* joystick_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BC119D1990115600E7A2F2 /* joystick_back@2x.png */; };
+		83BC11A11990124600E7A2F2 /* joy1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83BC11A01990124600E7A2F2 /* joy1.wav */; };
+		83BC11A41993C15700E7A2F2 /* JoystickMemorySettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC11A31993C15700E7A2F2 /* JoystickMemorySettingsViewController.m */; };
+		83C639EF19AFCDA500AFFE37 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C639ED19AFCDA500AFFE37 /* pause.png */; };
+		83C639F019AFCDA500AFFE37 /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83C639EE19AFCDA500AFFE37 /* pause@2x.png */; };
+		83D10B1419A38306000C4EBD /* joystick_ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D10B1219A38306000C4EBD /* joystick_ball.png */; };
+		83D10B1519A38306000C4EBD /* joystick_ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83D10B1319A38306000C4EBD /* joystick_ball@2x.png */; };
+		83DAACB61E264FD100B92500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DAACB51E264FD100B92500 /* Images.xcassets */; };
+		83DAACB91E2650F900B92500 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DAACB71E2650F900B92500 /* Crashlytics.framework */; };
+		83DAACBA1E2650F900B92500 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DAACB81E2650F900B92500 /* Fabric.framework */; };
+		83F236A7198DF11A00032995 /* coin1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83F236A6198DF11A00032995 /* coin1.wav */; };
+		83F236A9198DF22F00032995 /* gasp1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 83F236A8198DF22F00032995 /* gasp1.wav */; };
+		83F236AC198DFE2F00032995 /* UIView+GCLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F236AB198DFE2F00032995 /* UIView+GCLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C583460464D3AE34D20E74E /* Pods-Joystick Memory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joystick Memory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Joystick Memory/Pods-Joystick Memory.debug.xcconfig"; sourceTree = "<group>"; };
+		5E62475824E2D94605B1EFA0 /* Pods-Joystick Memory.adhoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joystick Memory.adhoc.xcconfig"; path = "Pods/Target Support Files/Pods-Joystick Memory/Pods-Joystick Memory.adhoc.xcconfig"; sourceTree = "<group>"; };
+		83001EAB198DAD570099457D /* Joystick Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Joystick Memory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83001EAE198DAD570099457D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83001EB0198DAD570099457D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83001EB2198DAD570099457D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83001EB4198DAD570099457D /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		83001EB8198DAD570099457D /* Joystick Memory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Joystick Memory-Info.plist"; sourceTree = "<group>"; };
+		83001EBA198DAD570099457D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83001EBC198DAD570099457D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83001EBE198DAD570099457D /* Joystick Memory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Joystick Memory-Prefix.pch"; sourceTree = "<group>"; };
+		83001EBF198DAD570099457D /* JoystickMemoryAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoystickMemoryAppDelegate.h; sourceTree = "<group>"; };
+		83001EC0198DAD570099457D /* JoystickMemoryAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoystickMemoryAppDelegate.m; sourceTree = "<group>"; };
+		83001EC3198DAD570099457D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83001EC5198DAD570099457D /* JoystickMemoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoystickMemoryViewController.h; sourceTree = "<group>"; };
+		83001EC6198DAD570099457D /* JoystickMemoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoystickMemoryViewController.m; sourceTree = "<group>"; };
+		83001EC8198DAD570099457D /* JoystickMemoryMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JoystickMemoryMyScene.h; sourceTree = "<group>"; };
+		83001EC9198DAD570099457D /* JoystickMemoryMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JoystickMemoryMyScene.m; sourceTree = "<group>"; };
+		83001ED4198DAD570099457D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		83001EEB198DAFD10099457D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		83001EEC198DAFD10099457D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		83001EED198DAFD10099457D /* icon60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon60.png; sourceTree = SOURCE_ROOT; };
+		83001EEE198DAFD10099457D /* icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon120.png; sourceTree = SOURCE_ROOT; };
+		83001EFC198DB52F0099457D /* button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_down.png; path = Assets/button_down.png; sourceTree = SOURCE_ROOT; };
+		83001EFD198DB52F0099457D /* button_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_down@2x.png"; path = "Assets/button_down@2x.png"; sourceTree = SOURCE_ROOT; };
+		83001EFE198DB52F0099457D /* button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_up.png; path = Assets/button_up.png; sourceTree = SOURCE_ROOT; };
+		83001EFF198DB52F0099457D /* button_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_up@2x.png"; path = "Assets/button_up@2x.png"; sourceTree = SOURCE_ROOT; };
+		83001F04198DC11C0099457D /* click1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click1.wav; path = Sounds/click1.wav; sourceTree = SOURCE_ROOT; };
+		83001F08198DC5AB0099457D /* ARCADE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = ARCADE.TTF; path = Fonts/ARCADE.TTF; sourceTree = SOURCE_ROOT; };
+		83001F0A198DC8FA0099457D /* click2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click2.wav; path = Sounds/click2.wav; sourceTree = SOURCE_ROOT; };
+		83001F0B198DC8FA0099457D /* click3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = click3.wav; path = Sounds/click3.wav; sourceTree = SOURCE_ROOT; };
+		83001F0E198DCF620099457D /* glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glow.png; path = Assets/glow.png; sourceTree = SOURCE_ROOT; };
+		83001F0F198DCF620099457D /* glow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glow@2x.png"; path = "Assets/glow@2x.png"; sourceTree = SOURCE_ROOT; };
+		83001F12198DDF9F0099457D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = Assets/background.png; sourceTree = SOURCE_ROOT; };
+		83001F13198DDF9F0099457D /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background@2x.png"; path = "Assets/background@2x.png"; sourceTree = SOURCE_ROOT; };
+		83001F17198DE2520099457D /* Particle1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Particle1.sks; path = Particles/Particle1.sks; sourceTree = SOURCE_ROOT; };
+		83001F1D198DE4520099457D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		83001F24198DE53E0099457D /* Particle2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Particle2.sks; path = Particles/Particle2.sks; sourceTree = SOURCE_ROOT; };
+		83001F27198DE63A0099457D /* NSString+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Utilities.h"; path = "Categories/NSString+Utilities.h"; sourceTree = SOURCE_ROOT; };
+		83001F28198DE63A0099457D /* NSString+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utilities.m"; path = "Categories/NSString+Utilities.m"; sourceTree = SOURCE_ROOT; };
+		83001F2C198DE6F60099457D /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		83001F2D198DE6F60099457D /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		8322EF8619AE33460040FC50 /* background_game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_game.png; path = Assets/background_game.png; sourceTree = SOURCE_ROOT; };
+		8322EF8719AE33460040FC50 /* background_game@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "background_game@2x.png"; path = "Assets/background_game@2x.png"; sourceTree = SOURCE_ROOT; };
+		8322EF8D19AE3A730040FC50 /* powerdown1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = powerdown1.mp3; path = Sounds/powerdown1.mp3; sourceTree = SOURCE_ROOT; };
+		832760AF19B5FCD700EB53B7 /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		832760B019B5FCD700EB53B7 /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
+		832760B119B5FCD700EB53B7 /* NSDataAES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAES256.h; sourceTree = "<group>"; };
+		832760B219B5FCD700EB53B7 /* NSDataAES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAES256.m; sourceTree = "<group>"; };
+		8328CF8919AB7D0D00C7D2C3 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		8328CF8A19AB7D0D00C7D2C3 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		8328CF8B19AB7D0D00C7D2C3 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		8328CF8E19AB7F9A00C7D2C3 /* wrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = wrong.wav; path = Sounds/wrong.wav; sourceTree = SOURCE_ROOT; };
+		83299C0919ACC68D005DD602 /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = replay.png; path = Assets/replay.png; sourceTree = SOURCE_ROOT; };
+		83299C0A19ACC68D005DD602 /* replay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "replay@2x.png"; path = "Assets/replay@2x.png"; sourceTree = SOURCE_ROOT; };
+		83299C0D19ACD2CA005DD602 /* overlayStart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlayStart.png; path = Assets/overlayStart.png; sourceTree = SOURCE_ROOT; };
+		83299C0E19ACD2CA005DD602 /* overlayStart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "overlayStart@2x.png"; path = "Assets/overlayStart@2x.png"; sourceTree = SOURCE_ROOT; };
+		83299C0F19ACD2CA005DD602 /* overlayWrong.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlayWrong.png; path = Assets/overlayWrong.png; sourceTree = SOURCE_ROOT; };
+		83299C1019ACD2CA005DD602 /* overlayWrong@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "overlayWrong@2x.png"; path = "Assets/overlayWrong@2x.png"; sourceTree = SOURCE_ROOT; };
+		83299C1519AD053E005DD602 /* JoystickMemoryStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickMemoryStoreViewController.h; sourceTree = "<group>"; };
+		83299C1619AD053E005DD602 /* JoystickMemoryStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickMemoryStoreViewController.m; sourceTree = "<group>"; };
+		83299C1819AD0B74005DD602 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = Assets/title.png; sourceTree = SOURCE_ROOT; };
+		83299C1919AD0B74005DD602 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "title@2x.png"; path = "Assets/title@2x.png"; sourceTree = SOURCE_ROOT; };
+		83299C1C19AD204C005DD602 /* voice_again.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_again.mp3; path = Sounds/voice_again.mp3; sourceTree = SOURCE_ROOT; };
+		83299C1D19AD204C005DD602 /* voice_fight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_fight.mp3; path = Sounds/voice_fight.mp3; sourceTree = SOURCE_ROOT; };
+		83299C1E19AD204C005DD602 /* voice_ready.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_ready.mp3; path = Sounds/voice_ready.mp3; sourceTree = SOURCE_ROOT; };
+		83299C2219AD20EC005DD602 /* voice_combo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_combo.mp3; path = Sounds/voice_combo.mp3; sourceTree = SOURCE_ROOT; };
+		83299C2419AD2745005DD602 /* voice_lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_lose.mp3; path = Sounds/voice_lose.mp3; sourceTree = SOURCE_ROOT; };
+		83299C2519AD2745005DD602 /* voice_levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_levelup.mp3; path = Sounds/voice_levelup.mp3; sourceTree = SOURCE_ROOT; };
+		83299C2619AD2745005DD602 /* voice_timeout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_timeout.mp3; path = Sounds/voice_timeout.mp3; sourceTree = SOURCE_ROOT; };
+		83299C2719AD2745005DD602 /* voice_win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_win.mp3; path = Sounds/voice_win.mp3; sourceTree = SOURCE_ROOT; };
+		83299C2819AD2745005DD602 /* voice_perfect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = voice_perfect.mp3; path = Sounds/voice_perfect.mp3; sourceTree = SOURCE_ROOT; };
+		83299C2E19AD2E53005DD602 /* clock_tick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = clock_tick.mp3; path = Sounds/clock_tick.mp3; sourceTree = SOURCE_ROOT; };
+		83299C3019AD39D9005DD602 /* credits_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = credits_back.png; path = Assets/credits_back.png; sourceTree = SOURCE_ROOT; };
+		83299C3119AD39D9005DD602 /* credits_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "credits_back@2x.png"; path = "Assets/credits_back@2x.png"; sourceTree = SOURCE_ROOT; };
+		832EDFE519AAC14D003A2B86 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		832EDFE619AAC14D003A2B86 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		832EDFE819AAC169003A2B86 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		832EDFEA19AAC265003A2B86 /* RIButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIButtonItem.h; sourceTree = "<group>"; };
+		832EDFEB19AAC265003A2B86 /* RIButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIButtonItem.m; sourceTree = "<group>"; };
+		832EDFEC19AAC265003A2B86 /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		832EDFED19AAC265003A2B86 /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		832EDFEE19AAC265003A2B86 /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		832EDFEF19AAC265003A2B86 /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		832EDFF319AAC288003A2B86 /* UIButton+Position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Position.h"; path = "Categories/UIButton+Position.h"; sourceTree = SOURCE_ROOT; };
+		832EDFF419AAC288003A2B86 /* UIButton+Position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Position.m"; path = "Categories/UIButton+Position.m"; sourceTree = SOURCE_ROOT; };
+		832EDFF619AACFF0003A2B86 /* joystick_ball_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_ball_down.png; path = Assets/joystick_ball_down.png; sourceTree = SOURCE_ROOT; };
+		832EDFF719AACFF0003A2B86 /* joystick_ball_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joystick_ball_down@2x.png"; path = "Assets/joystick_ball_down@2x.png"; sourceTree = SOURCE_ROOT; };
+		832EDFFA19AAD207003A2B86 /* joystick_ball_glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_ball_glow.png; path = Assets/joystick_ball_glow.png; sourceTree = SOURCE_ROOT; };
+		832EDFFB19AAD207003A2B86 /* joystick_ball_glow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joystick_ball_glow@2x.png"; path = "Assets/joystick_ball_glow@2x.png"; sourceTree = SOURCE_ROOT; };
+		834B8D431994066200284E54 /* Crimes Times Six.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Crimes Times Six.ttf"; path = "Fonts/Crimes Times Six.ttf"; sourceTree = SOURCE_ROOT; };
+		834B8D441994066200284E54 /* FEASFBI_.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = FEASFBI_.TTF; path = Fonts/FEASFBI_.TTF; sourceTree = SOURCE_ROOT; };
+		834B8D451994066200284E54 /* FEASFBRG.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = FEASFBRG.TTF; path = Fonts/FEASFBRG.TTF; sourceTree = SOURCE_ROOT; };
+		834B8D461994066200284E54 /* Monsters Attack! 1937.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Monsters Attack! 1937.TTF"; path = "Fonts/Monsters Attack! 1937.TTF"; sourceTree = SOURCE_ROOT; };
+		834B8D4B19940F9800284E54 /* coin2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin2.wav; path = Sounds/coin2.wav; sourceTree = SOURCE_ROOT; };
+		834B8D4D1994103000284E54 /* coin3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin3.wav; path = Sounds/coin3.wav; sourceTree = SOURCE_ROOT; };
+		834B8D4F19941CC800284E54 /* Disorient Pixels.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Disorient Pixels.ttf"; path = "Fonts/Disorient Pixels.ttf"; sourceTree = SOURCE_ROOT; };
+		834B8D5019941CC800284E54 /* Open 24 Display St.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Open 24 Display St.ttf"; path = "Fonts/Open 24 Display St.ttf"; sourceTree = SOURCE_ROOT; };
+		836C9F41199282C700BD7A1D /* music1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = music1.wav; path = Music/music1.wav; sourceTree = SOURCE_ROOT; };
+		836C9F42199282C700BD7A1D /* music2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = music2.wav; path = Music/music2.wav; sourceTree = SOURCE_ROOT; };
+		836C9F43199282C700BD7A1D /* music3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = music3.wav; path = Music/music3.wav; sourceTree = SOURCE_ROOT; };
+		836C9F481992868F00BD7A1D /* glow_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = glow_red.png; path = Assets/glow_red.png; sourceTree = SOURCE_ROOT; };
+		836C9F491992868F00BD7A1D /* glow_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "glow_red@2x.png"; path = "Assets/glow_red@2x.png"; sourceTree = SOURCE_ROOT; };
+		836C9F4E19928A0000BD7A1D /* NSArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Shuffle.h"; sourceTree = "<group>"; };
+		836C9F4F19928A0000BD7A1D /* NSArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shuffle.m"; sourceTree = "<group>"; };
+		836C9F521992B59900BD7A1D /* 1player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1player.png; path = Assets/1player.png; sourceTree = SOURCE_ROOT; };
+		836C9F531992B59900BD7A1D /* 1player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1player@2x.png"; path = "Assets/1player@2x.png"; sourceTree = SOURCE_ROOT; };
+		836E444B19B52B3900B4717F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		8397B1AB19AF8E3A0038E285 /* overlayTimesout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlayTimesout.png; path = Assets/overlayTimesout.png; sourceTree = SOURCE_ROOT; };
+		8397B1AC19AF8E3A0038E285 /* overlayTimesout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "overlayTimesout@2x.png"; path = "Assets/overlayTimesout@2x.png"; sourceTree = SOURCE_ROOT; };
+		83BC116E198FD01200E7A2F2 /* JoystickMemoryLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickMemoryLoadingViewController.h; sourceTree = "<group>"; };
+		83BC116F198FD01200E7A2F2 /* JoystickMemoryLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickMemoryLoadingViewController.m; sourceTree = "<group>"; };
+		83BC1171198FD08200E7A2F2 /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loading@2x.png"; path = "Assets/loading@2x.png"; sourceTree = SOURCE_ROOT; };
+		83BC1173198FD11300E7A2F2 /* JoystickMemoryHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickMemoryHomeViewController.h; sourceTree = "<group>"; };
+		83BC1174198FD11300E7A2F2 /* JoystickMemoryHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickMemoryHomeViewController.m; sourceTree = "<group>"; };
+		83BC1176198FD1D900E7A2F2 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loading.png; path = Assets/loading.png; sourceTree = SOURCE_ROOT; };
+		83BC1179198FD26A00E7A2F2 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home.png; path = Assets/home.png; sourceTree = SOURCE_ROOT; };
+		83BC117A198FD26A00E7A2F2 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home@2x.png"; path = "Assets/home@2x.png"; sourceTree = SOURCE_ROOT; };
+		83BC117E198FD6E300E7A2F2 /* home_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home_play.png; path = Assets/home_play.png; sourceTree = SOURCE_ROOT; };
+		83BC117F198FD6E400E7A2F2 /* home_play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home_play@2x.png"; path = "Assets/home_play@2x.png"; sourceTree = SOURCE_ROOT; };
+		83BC118A198FF5E700E7A2F2 /* unclick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = unclick.wav; path = Sounds/unclick.wav; sourceTree = SOURCE_ROOT; };
+		83BC119419900A0800E7A2F2 /* button_white_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_white_down.png; path = Assets/button_white_down.png; sourceTree = SOURCE_ROOT; };
+		83BC119519900A0800E7A2F2 /* button_white_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_white_down@2x.png"; path = "Assets/button_white_down@2x.png"; sourceTree = SOURCE_ROOT; };
+		83BC119619900A0800E7A2F2 /* button_white_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_white_up.png; path = Assets/button_white_up.png; sourceTree = SOURCE_ROOT; };
+		83BC119719900A0800E7A2F2 /* button_white_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button_white_up@2x.png"; path = "Assets/button_white_up@2x.png"; sourceTree = SOURCE_ROOT; };
+		83BC119C1990115600E7A2F2 /* joystick_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_back.png; path = Assets/joystick_back.png; sourceTree = SOURCE_ROOT; };
+		83BC119D1990115600E7A2F2 /* joystick_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joystick_back@2x.png"; path = "Assets/joystick_back@2x.png"; sourceTree = SOURCE_ROOT; };
+		83BC11A01990124600E7A2F2 /* joy1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = joy1.wav; path = Sounds/joy1.wav; sourceTree = SOURCE_ROOT; };
+		83BC11A21993C15700E7A2F2 /* JoystickMemorySettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoystickMemorySettingsViewController.h; sourceTree = "<group>"; };
+		83BC11A31993C15700E7A2F2 /* JoystickMemorySettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoystickMemorySettingsViewController.m; sourceTree = "<group>"; };
+		83C639ED19AFCDA500AFFE37 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = Assets/pause.png; sourceTree = SOURCE_ROOT; };
+		83C639EE19AFCDA500AFFE37 /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pause@2x.png"; path = "Assets/pause@2x.png"; sourceTree = SOURCE_ROOT; };
+		83D10B1219A38306000C4EBD /* joystick_ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = joystick_ball.png; path = Assets/joystick_ball.png; sourceTree = SOURCE_ROOT; };
+		83D10B1319A38306000C4EBD /* joystick_ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "joystick_ball@2x.png"; path = "Assets/joystick_ball@2x.png"; sourceTree = SOURCE_ROOT; };
+		83DAACB51E264FD100B92500 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Joystick Memory/Images.xcassets"; sourceTree = "<group>"; };
+		83DAACB71E2650F900B92500 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		83DAACB81E2650F900B92500 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		83F1AD272036E59900ECB18A /* Joystick Memory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = "Joystick Memory.entitlements"; path = "Joystick Memory/Joystick Memory.entitlements"; sourceTree = "<group>"; };
+		83F236A6198DF11A00032995 /* coin1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = coin1.wav; path = Sounds/coin1.wav; sourceTree = SOURCE_ROOT; };
+		83F236A8198DF22F00032995 /* gasp1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gasp1.wav; path = Sounds/gasp1.wav; sourceTree = SOURCE_ROOT; };
+		83F236AA198DFE2F00032995 /* UIView+GCLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+GCLibrary.h"; path = "Categories/UIView+GCLibrary.h"; sourceTree = SOURCE_ROOT; };
+		83F236AB198DFE2F00032995 /* UIView+GCLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+GCLibrary.m"; path = "Categories/UIView+GCLibrary.m"; sourceTree = SOURCE_ROOT; };
+		BE8F634FCC634CD94E7323CF /* Pods-Joystick Memory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Joystick Memory.release.xcconfig"; path = "Pods/Target Support Files/Pods-Joystick Memory/Pods-Joystick Memory.release.xcconfig"; sourceTree = "<group>"; };
+		E625EF3986961E15B9A4EACD /* libPods-Joystick Memory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Joystick Memory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83001EA8198DAD570099457D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83001EB1198DAD570099457D /* CoreGraphics.framework in Frameworks */,
+				83001EB3198DAD570099457D /* UIKit.framework in Frameworks */,
+				836E444C19B52B3900B4717F /* GameKit.framework in Frameworks */,
+				83DAACBA1E2650F900B92500 /* Fabric.framework in Frameworks */,
+				83001EB5198DAD570099457D /* SpriteKit.framework in Frameworks */,
+				83001EAF198DAD570099457D /* Foundation.framework in Frameworks */,
+				1D4EF4603D162679575F1804 /* libPods-Joystick Memory.a in Frameworks */,
+				83DAACB91E2650F900B92500 /* Crashlytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F8830E84C26CF32B3606BF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C583460464D3AE34D20E74E /* Pods-Joystick Memory.debug.xcconfig */,
+				BE8F634FCC634CD94E7323CF /* Pods-Joystick Memory.release.xcconfig */,
+				5E62475824E2D94605B1EFA0 /* Pods-Joystick Memory.adhoc.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83001EA2198DAD570099457D = {
+			isa = PBXGroup;
+			children = (
+				83F1AD272036E59900ECB18A /* Joystick Memory.entitlements */,
+				83DAACB51E264FD100B92500 /* Images.xcassets */,
+				83BC116C198EB31100E7A2F2 /* Source Code */,
+				83001EEA198DAFC60099457D /* Assets */,
+				83001EB7198DAD570099457D /* Supporting Files */,
+				83001EAD198DAD570099457D /* Frameworks */,
+				83001EAC198DAD570099457D /* Products */,
+				5F8830E84C26CF32B3606BF9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		83001EAC198DAD570099457D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83001EAB198DAD570099457D /* Joystick Memory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83001EAD198DAD570099457D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				836E444B19B52B3900B4717F /* GameKit.framework */,
+				83001EAE198DAD570099457D /* Foundation.framework */,
+				83001EB0198DAD570099457D /* CoreGraphics.framework */,
+				83001EB2198DAD570099457D /* UIKit.framework */,
+				83001EB4198DAD570099457D /* SpriteKit.framework */,
+				83001ED4198DAD570099457D /* XCTest.framework */,
+				E625EF3986961E15B9A4EACD /* libPods-Joystick Memory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83001EB6198DAD570099457D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				832EDFE819AAC169003A2B86 /* Config.h */,
+				832EDFE519AAC14D003A2B86 /* Helpers.h */,
+				832EDFE619AAC14D003A2B86 /* Helpers.m */,
+				83001EBF198DAD570099457D /* JoystickMemoryAppDelegate.h */,
+				83001EC0198DAD570099457D /* JoystickMemoryAppDelegate.m */,
+				83001EC5198DAD570099457D /* JoystickMemoryViewController.h */,
+				83001EC6198DAD570099457D /* JoystickMemoryViewController.m */,
+				83001EC8198DAD570099457D /* JoystickMemoryMyScene.h */,
+				83001EC9198DAD570099457D /* JoystickMemoryMyScene.m */,
+				83BC116E198FD01200E7A2F2 /* JoystickMemoryLoadingViewController.h */,
+				83BC116F198FD01200E7A2F2 /* JoystickMemoryLoadingViewController.m */,
+				83BC1173198FD11300E7A2F2 /* JoystickMemoryHomeViewController.h */,
+				83BC1174198FD11300E7A2F2 /* JoystickMemoryHomeViewController.m */,
+				83BC11A21993C15700E7A2F2 /* JoystickMemorySettingsViewController.h */,
+				83BC11A31993C15700E7A2F2 /* JoystickMemorySettingsViewController.m */,
+				83299C1519AD053E005DD602 /* JoystickMemoryStoreViewController.h */,
+				83299C1619AD053E005DD602 /* JoystickMemoryStoreViewController.m */,
+			);
+			name = Classes;
+			path = "../Joystick Memory";
+			sourceTree = "<group>";
+		};
+		83001EB7198DAD570099457D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83001EC2198DAD570099457D /* Main.storyboard */,
+				83001EB8198DAD570099457D /* Joystick Memory-Info.plist */,
+				83001EB9198DAD570099457D /* InfoPlist.strings */,
+				83001EBC198DAD570099457D /* main.m */,
+				83001EBE198DAD570099457D /* Joystick Memory-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "Joystick Memory";
+			sourceTree = "<group>";
+		};
+		83001EEA198DAFC60099457D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				83BC116D198EB32B00E7A2F2 /* Images */,
+				83001F07198DC5A10099457D /* Font */,
+				83001F06198DC1210099457D /* Sounds */,
+				836C9F47199282CC00BD7A1D /* Music */,
+				83A0770F198ED80D00D1925A /* Scenes */,
+				83001F1B198DE25C0099457D /* Particles */,
+			);
+			name = Assets;
+			path = "Joystick Memory";
+			sourceTree = "<group>";
+		};
+		83001EF9198DB48D0099457D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				83001EED198DAFD10099457D /* icon60.png */,
+				83001EEE198DAFD10099457D /* icon120.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		83001EFA198DB4920099457D /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				83001EEB198DAFD10099457D /* Default-568h@2x.png */,
+				83001EEC198DAFD10099457D /* Default@2x.png */,
+			);
+			name = Defaults;
+			sourceTree = "<group>";
+		};
+		83001EFB198DB4960099457D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8397B1AB19AF8E3A0038E285 /* overlayTimesout.png */,
+				8397B1AC19AF8E3A0038E285 /* overlayTimesout@2x.png */,
+				83299C0D19ACD2CA005DD602 /* overlayStart.png */,
+				83299C0E19ACD2CA005DD602 /* overlayStart@2x.png */,
+				83299C0F19ACD2CA005DD602 /* overlayWrong.png */,
+				83299C1019ACD2CA005DD602 /* overlayWrong@2x.png */,
+				83C639ED19AFCDA500AFFE37 /* pause.png */,
+				83C639EE19AFCDA500AFFE37 /* pause@2x.png */,
+				83299C0919ACC68D005DD602 /* replay.png */,
+				83299C0A19ACC68D005DD602 /* replay@2x.png */,
+				836C9F521992B59900BD7A1D /* 1player.png */,
+				836C9F531992B59900BD7A1D /* 1player@2x.png */,
+				83BC119C1990115600E7A2F2 /* joystick_back.png */,
+				83BC119D1990115600E7A2F2 /* joystick_back@2x.png */,
+				83D10B1219A38306000C4EBD /* joystick_ball.png */,
+				83D10B1319A38306000C4EBD /* joystick_ball@2x.png */,
+				832EDFF619AACFF0003A2B86 /* joystick_ball_down.png */,
+				832EDFF719AACFF0003A2B86 /* joystick_ball_down@2x.png */,
+				832EDFFA19AAD207003A2B86 /* joystick_ball_glow.png */,
+				832EDFFB19AAD207003A2B86 /* joystick_ball_glow@2x.png */,
+				83001F0E198DCF620099457D /* glow.png */,
+				83001F0F198DCF620099457D /* glow@2x.png */,
+				836C9F481992868F00BD7A1D /* glow_red.png */,
+				836C9F491992868F00BD7A1D /* glow_red@2x.png */,
+				83001EFC198DB52F0099457D /* button_down.png */,
+				83001EFD198DB52F0099457D /* button_down@2x.png */,
+				83001EFE198DB52F0099457D /* button_up.png */,
+				83001EFF198DB52F0099457D /* button_up@2x.png */,
+				83BC119419900A0800E7A2F2 /* button_white_down.png */,
+				83BC119519900A0800E7A2F2 /* button_white_down@2x.png */,
+				83BC119619900A0800E7A2F2 /* button_white_up.png */,
+				83BC119719900A0800E7A2F2 /* button_white_up@2x.png */,
+				83299C1819AD0B74005DD602 /* title.png */,
+				83299C1919AD0B74005DD602 /* title@2x.png */,
+				83299C3019AD39D9005DD602 /* credits_back.png */,
+				83299C3119AD39D9005DD602 /* credits_back@2x.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		83001F06198DC1210099457D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				83299C2E19AD2E53005DD602 /* clock_tick.mp3 */,
+				83001F04198DC11C0099457D /* click1.wav */,
+				83001F0A198DC8FA0099457D /* click2.wav */,
+				83001F0B198DC8FA0099457D /* click3.wav */,
+				83F236A6198DF11A00032995 /* coin1.wav */,
+				834B8D4B19940F9800284E54 /* coin2.wav */,
+				834B8D4D1994103000284E54 /* coin3.wav */,
+				83F236A8198DF22F00032995 /* gasp1.wav */,
+				83BC118A198FF5E700E7A2F2 /* unclick.wav */,
+				83BC11A01990124600E7A2F2 /* joy1.wav */,
+				8328CF8E19AB7F9A00C7D2C3 /* wrong.wav */,
+				83299C1C19AD204C005DD602 /* voice_again.mp3 */,
+				83299C1D19AD204C005DD602 /* voice_fight.mp3 */,
+				83299C1E19AD204C005DD602 /* voice_ready.mp3 */,
+				83299C2219AD20EC005DD602 /* voice_combo.mp3 */,
+				83299C2419AD2745005DD602 /* voice_lose.mp3 */,
+				83299C2519AD2745005DD602 /* voice_levelup.mp3 */,
+				83299C2619AD2745005DD602 /* voice_timeout.mp3 */,
+				83299C2719AD2745005DD602 /* voice_win.mp3 */,
+				83299C2819AD2745005DD602 /* voice_perfect.mp3 */,
+				8322EF8D19AE3A730040FC50 /* powerdown1.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		83001F07198DC5A10099457D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				834B8D4F19941CC800284E54 /* Disorient Pixels.ttf */,
+				834B8D5019941CC800284E54 /* Open 24 Display St.ttf */,
+				83001F08198DC5AB0099457D /* ARCADE.TTF */,
+				834B8D431994066200284E54 /* Crimes Times Six.ttf */,
+				834B8D441994066200284E54 /* FEASFBI_.TTF */,
+				834B8D451994066200284E54 /* FEASFBRG.TTF */,
+				834B8D461994066200284E54 /* Monsters Attack! 1937.TTF */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		83001F16198DDFA50099457D /* General */ = {
+			isa = PBXGroup;
+			children = (
+				83001F12198DDF9F0099457D /* background.png */,
+				83001F13198DDF9F0099457D /* background@2x.png */,
+				8322EF8619AE33460040FC50 /* background_game.png */,
+				8322EF8719AE33460040FC50 /* background_game@2x.png */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		83001F1B198DE25C0099457D /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				83001F1D198DE4520099457D /* spark.png */,
+				83001F17198DE2520099457D /* Particle1.sks */,
+				83001F24198DE53E0099457D /* Particle2.sks */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		83001F26198DE6220099457D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				832EDFF319AAC288003A2B86 /* UIButton+Position.h */,
+				832EDFF419AAC288003A2B86 /* UIButton+Position.m */,
+				83F236AA198DFE2F00032995 /* UIView+GCLibrary.h */,
+				83F236AB198DFE2F00032995 /* UIView+GCLibrary.m */,
+				83001F27198DE63A0099457D /* NSString+Utilities.h */,
+				83001F28198DE63A0099457D /* NSString+Utilities.m */,
+				836C9F4C19928A0000BD7A1D /* NSArray-Shuffle */,
+			);
+			name = Categories;
+			path = "../Joystick Memory";
+			sourceTree = "<group>";
+		};
+		83001F2A198DE6F60099457D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				83DAACB71E2650F900B92500 /* Crashlytics.framework */,
+				83DAACB81E2650F900B92500 /* Fabric.framework */,
+				832760AE19B5FCD700EB53B7 /* GC Manager */,
+				8328CF8819AB7D0D00C7D2C3 /* SVProgressHUD */,
+				832EDFE919AAC265003A2B86 /* UIAlertView-Blocks */,
+				83001F2B198DE6F60099457D /* GTMNSString+HTML */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83001F2B198DE6F60099457D /* GTMNSString+HTML */ = {
+			isa = PBXGroup;
+			children = (
+				83001F2C198DE6F60099457D /* GTMNSString+HTML.h */,
+				83001F2D198DE6F60099457D /* GTMNSString+HTML.m */,
+			);
+			path = "GTMNSString+HTML";
+			sourceTree = "<group>";
+		};
+		832760AE19B5FCD700EB53B7 /* GC Manager */ = {
+			isa = PBXGroup;
+			children = (
+				832760AF19B5FCD700EB53B7 /* GameCenterManager.h */,
+				832760B019B5FCD700EB53B7 /* GameCenterManager.m */,
+				832760B119B5FCD700EB53B7 /* NSDataAES256.h */,
+				832760B219B5FCD700EB53B7 /* NSDataAES256.m */,
+			);
+			path = "GC Manager";
+			sourceTree = "<group>";
+		};
+		8328CF8819AB7D0D00C7D2C3 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				8328CF8919AB7D0D00C7D2C3 /* SVProgressHUD.bundle */,
+				8328CF8A19AB7D0D00C7D2C3 /* SVProgressHUD.h */,
+				8328CF8B19AB7D0D00C7D2C3 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		832EDFE919AAC265003A2B86 /* UIAlertView-Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				832EDFEA19AAC265003A2B86 /* RIButtonItem.h */,
+				832EDFEB19AAC265003A2B86 /* RIButtonItem.m */,
+				832EDFEC19AAC265003A2B86 /* UIActionSheet+Blocks.h */,
+				832EDFED19AAC265003A2B86 /* UIActionSheet+Blocks.m */,
+				832EDFEE19AAC265003A2B86 /* UIAlertView+Blocks.h */,
+				832EDFEF19AAC265003A2B86 /* UIAlertView+Blocks.m */,
+			);
+			path = "UIAlertView-Blocks";
+			sourceTree = "<group>";
+		};
+		836C9F47199282CC00BD7A1D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				836C9F41199282C700BD7A1D /* music1.wav */,
+				836C9F42199282C700BD7A1D /* music2.wav */,
+				836C9F43199282C700BD7A1D /* music3.wav */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		836C9F4C19928A0000BD7A1D /* NSArray-Shuffle */ = {
+			isa = PBXGroup;
+			children = (
+				836C9F4E19928A0000BD7A1D /* NSArray+Shuffle.h */,
+				836C9F4F19928A0000BD7A1D /* NSArray+Shuffle.m */,
+			);
+			name = "NSArray-Shuffle";
+			path = "../Libraries/NSArray-Shuffle";
+			sourceTree = "<group>";
+		};
+		83A0770F198ED80D00D1925A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Scenes;
+			path = ../Libraries;
+			sourceTree = "<group>";
+		};
+		83BC116C198EB31100E7A2F2 /* Source Code */ = {
+			isa = PBXGroup;
+			children = (
+				83001EB6198DAD570099457D /* Classes */,
+				83001F26198DE6220099457D /* Categories */,
+				83001F2A198DE6F60099457D /* Libraries */,
+			);
+			name = "Source Code";
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		83BC116D198EB32B00E7A2F2 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				83BC117D198FD26E00E7A2F2 /* Home */,
+				83BC1178198FD1DE00E7A2F2 /* Loading */,
+				83001F16198DDFA50099457D /* General */,
+				83001EFB198DB4960099457D /* Buttons */,
+				83001EFA198DB4920099457D /* Defaults */,
+				83001EF9198DB48D0099457D /* Icons */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		83BC1178198FD1DE00E7A2F2 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1171198FD08200E7A2F2 /* loading@2x.png */,
+				83BC1176198FD1D900E7A2F2 /* loading.png */,
+			);
+			name = Loading;
+			sourceTree = "<group>";
+		};
+		83BC117D198FD26E00E7A2F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83BC1179198FD26A00E7A2F2 /* home.png */,
+				83BC117A198FD26A00E7A2F2 /* home@2x.png */,
+				83BC117E198FD6E300E7A2F2 /* home_play.png */,
+				83BC117F198FD6E400E7A2F2 /* home_play@2x.png */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83001EAA198DAD570099457D /* Joystick Memory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83001EE4198DAD570099457D /* Build configuration list for PBXNativeTarget "Joystick Memory" */;
+			buildPhases = (
+				FB8A2CBA01B82459EC44D763 /* [CP] Check Pods Manifest.lock */,
+				83001EA7198DAD570099457D /* Sources */,
+				83001EA8198DAD570099457D /* Frameworks */,
+				83001EA9198DAD570099457D /* Resources */,
+				8322EF8A19AE343A0040FC50 /* ShellScript */,
+				5064E8EBE28D87FF181DD3C6 /* [CP] Embed Pods Frameworks */,
+				ED3816FFFDB6FBED70F974A0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Joystick Memory";
+			productName = "Joystick Memory";
+			productReference = 83001EAB198DAD570099457D /* Joystick Memory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83001EA3198DAD570099457D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JoystickMemory;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Skyriser Media";
+				TargetAttributes = {
+					83001EAA198DAD570099457D = {
+						DevelopmentTeam = 2N2B325D9B;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 83001EA6198DAD570099457D /* Build configuration list for PBXProject "Joystick Memory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83001EA2198DAD570099457D;
+			productRefGroup = 83001EAC198DAD570099457D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83001EAA198DAD570099457D /* Joystick Memory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83001EA9198DAD570099457D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83001EF2198DAFD10099457D /* Default@2x.png in Resources */,
+				83299C0C19ACC68D005DD602 /* replay@2x.png in Resources */,
+				8397B1AD19AF8E3A0038E285 /* overlayTimesout.png in Resources */,
+				83299C2F19AD2E53005DD602 /* clock_tick.mp3 in Resources */,
+				83BC1180198FD6E400E7A2F2 /* home_play.png in Resources */,
+				8397B1AE19AF8E3A0038E285 /* overlayTimesout@2x.png in Resources */,
+				83001F09198DC5AB0099457D /* ARCADE.TTF in Resources */,
+				83BC117B198FD26A00E7A2F2 /* home.png in Resources */,
+				836C9F4B1992868F00BD7A1D /* glow_red@2x.png in Resources */,
+				83001EBB198DAD570099457D /* InfoPlist.strings in Resources */,
+				83BC1172198FD08200E7A2F2 /* loading@2x.png in Resources */,
+				83BC119919900A0800E7A2F2 /* button_white_down@2x.png in Resources */,
+				83BC117C198FD26A00E7A2F2 /* home@2x.png in Resources */,
+				834B8D471994066200284E54 /* Crimes Times Six.ttf in Resources */,
+				8322EF8919AE33460040FC50 /* background_game@2x.png in Resources */,
+				83299C0B19ACC68D005DD602 /* replay.png in Resources */,
+				83299C2919AD2745005DD602 /* voice_lose.mp3 in Resources */,
+				83001F03198DB52F0099457D /* button_up@2x.png in Resources */,
+				834B8D491994066200284E54 /* FEASFBRG.TTF in Resources */,
+				83299C2B19AD2745005DD602 /* voice_timeout.mp3 in Resources */,
+				83001EF4198DAFD10099457D /* icon120.png in Resources */,
+				83D10B1419A38306000C4EBD /* joystick_ball.png in Resources */,
+				83001F00198DB52F0099457D /* button_down.png in Resources */,
+				83299C1219ACD2CA005DD602 /* overlayStart@2x.png in Resources */,
+				83001F05198DC11D0099457D /* click1.wav in Resources */,
+				83C639EF19AFCDA500AFFE37 /* pause.png in Resources */,
+				834B8D4C19940F9800284E54 /* coin2.wav in Resources */,
+				83001F02198DB52F0099457D /* button_up.png in Resources */,
+				83299C2119AD204C005DD602 /* voice_ready.mp3 in Resources */,
+				83D10B1519A38306000C4EBD /* joystick_ball@2x.png in Resources */,
+				83299C1A19AD0B74005DD602 /* title.png in Resources */,
+				836C9F541992B59900BD7A1D /* 1player.png in Resources */,
+				83BC11A11990124600E7A2F2 /* joy1.wav in Resources */,
+				834B8D4E1994103000284E54 /* coin3.wav in Resources */,
+				834B8D5119941CC800284E54 /* Disorient Pixels.ttf in Resources */,
+				83001F0C198DC8FA0099457D /* click2.wav in Resources */,
+				836C9F44199282C700BD7A1D /* music1.wav in Resources */,
+				83BC119F1990115600E7A2F2 /* joystick_back@2x.png in Resources */,
+				836C9F45199282C700BD7A1D /* music2.wav in Resources */,
+				83F236A9198DF22F00032995 /* gasp1.wav in Resources */,
+				83001EF3198DAFD10099457D /* icon60.png in Resources */,
+				8328CF8F19AB7F9A00C7D2C3 /* wrong.wav in Resources */,
+				83299C1419ACD2CA005DD602 /* overlayWrong@2x.png in Resources */,
+				83BC118B198FF5E700E7A2F2 /* unclick.wav in Resources */,
+				834B8D4A1994066200284E54 /* Monsters Attack! 1937.TTF in Resources */,
+				83299C2C19AD2745005DD602 /* voice_win.mp3 in Resources */,
+				83299C1B19AD0B74005DD602 /* title@2x.png in Resources */,
+				83BC1177198FD1D900E7A2F2 /* loading.png in Resources */,
+				83299C2319AD20EC005DD602 /* voice_combo.mp3 in Resources */,
+				832EDFFD19AAD207003A2B86 /* joystick_ball_glow@2x.png in Resources */,
+				83BC119B19900A0800E7A2F2 /* button_white_up@2x.png in Resources */,
+				83F236A7198DF11A00032995 /* coin1.wav in Resources */,
+				83299C2019AD204C005DD602 /* voice_fight.mp3 in Resources */,
+				8322EF8E19AE3A730040FC50 /* powerdown1.mp3 in Resources */,
+				836C9F551992B59900BD7A1D /* 1player@2x.png in Resources */,
+				83001F14198DDF9F0099457D /* background.png in Resources */,
+				83BC119819900A0800E7A2F2 /* button_white_down.png in Resources */,
+				832EDFFC19AAD207003A2B86 /* joystick_ball_glow.png in Resources */,
+				836C9F46199282C700BD7A1D /* music3.wav in Resources */,
+				83001F1F198DE4520099457D /* spark.png in Resources */,
+				83299C3219AD39D9005DD602 /* credits_back.png in Resources */,
+				836C9F4A1992868F00BD7A1D /* glow_red.png in Resources */,
+				83299C2D19AD2745005DD602 /* voice_perfect.mp3 in Resources */,
+				83BC1181198FD6E400E7A2F2 /* home_play@2x.png in Resources */,
+				834B8D5219941CC800284E54 /* Open 24 Display St.ttf in Resources */,
+				83BC119A19900A0800E7A2F2 /* button_white_up.png in Resources */,
+				832EDFF919AACFF0003A2B86 /* joystick_ball_down@2x.png in Resources */,
+				83299C3319AD39D9005DD602 /* credits_back@2x.png in Resources */,
+				8328CF8C19AB7D0D00C7D2C3 /* SVProgressHUD.bundle in Resources */,
+				83299C1319ACD2CA005DD602 /* overlayWrong.png in Resources */,
+				83001F01198DB52F0099457D /* button_down@2x.png in Resources */,
+				83001EF1198DAFD10099457D /* Default-568h@2x.png in Resources */,
+				83001EC4198DAD570099457D /* Main.storyboard in Resources */,
+				83001F25198DE53E0099457D /* Particle2.sks in Resources */,
+				834B8D481994066200284E54 /* FEASFBI_.TTF in Resources */,
+				83BC119E1990115600E7A2F2 /* joystick_back.png in Resources */,
+				83299C1119ACD2CA005DD602 /* overlayStart.png in Resources */,
+				83001F10198DCF620099457D /* glow.png in Resources */,
+				83001F0D198DC8FA0099457D /* click3.wav in Resources */,
+				83001F19198DE2520099457D /* Particle1.sks in Resources */,
+				83001F15198DDF9F0099457D /* background@2x.png in Resources */,
+				83DAACB61E264FD100B92500 /* Images.xcassets in Resources */,
+				83C639F019AFCDA500AFFE37 /* pause@2x.png in Resources */,
+				832EDFF819AACFF0003A2B86 /* joystick_ball_down.png in Resources */,
+				83299C2A19AD2745005DD602 /* voice_levelup.mp3 in Resources */,
+				8322EF8819AE33460040FC50 /* background_game.png in Resources */,
+				83299C1F19AD204C005DD602 /* voice_again.mp3 in Resources */,
+				83001F11198DCF620099457D /* glow@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5064E8EBE28D87FF181DD3C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Joystick Memory/Pods-Joystick Memory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8322EF8A19AE343A0040FC50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 85ef4e9599d0568f9d83bf8599a554aa160307d3 f3f804d58e4b1bc44ce36fc4e35f0019e48b0e5ade8006b1c5b0c83b4a858293";
+		};
+		ED3816FFFDB6FBED70F974A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Joystick Memory/Pods-Joystick Memory-resources.sh",
+				"${PODS_ROOT}/SIAlertView/SIAlertView/SIAlertView.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SIAlertView.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Joystick Memory/Pods-Joystick Memory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB8A2CBA01B82459EC44D763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Joystick Memory-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83001EA7198DAD570099457D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				832760B419B5FCD700EB53B7 /* NSDataAES256.m in Sources */,
+				83299C1719AD053E005DD602 /* JoystickMemoryStoreViewController.m in Sources */,
+				832EDFE719AAC14D003A2B86 /* Helpers.m in Sources */,
+				83001EC7198DAD570099457D /* JoystickMemoryViewController.m in Sources */,
+				83001F29198DE63A0099457D /* NSString+Utilities.m in Sources */,
+				832EDFF019AAC265003A2B86 /* RIButtonItem.m in Sources */,
+				83001EBD198DAD570099457D /* main.m in Sources */,
+				8328CF8D19AB7D0D00C7D2C3 /* SVProgressHUD.m in Sources */,
+				83001EC1198DAD570099457D /* JoystickMemoryAppDelegate.m in Sources */,
+				832EDFF519AAC288003A2B86 /* UIButton+Position.m in Sources */,
+				83001ECA198DAD570099457D /* JoystickMemoryMyScene.m in Sources */,
+				83BC1175198FD11300E7A2F2 /* JoystickMemoryHomeViewController.m in Sources */,
+				83BC11A41993C15700E7A2F2 /* JoystickMemorySettingsViewController.m in Sources */,
+				832EDFF219AAC265003A2B86 /* UIAlertView+Blocks.m in Sources */,
+				836C9F5119928A0000BD7A1D /* NSArray+Shuffle.m in Sources */,
+				83001F2E198DE6F60099457D /* GTMNSString+HTML.m in Sources */,
+				832760B319B5FCD700EB53B7 /* GameCenterManager.m in Sources */,
+				83BC1170198FD01200E7A2F2 /* JoystickMemoryLoadingViewController.m in Sources */,
+				832EDFF119AAC265003A2B86 /* UIActionSheet+Blocks.m in Sources */,
+				83F236AC198DFE2F00032995 /* UIView+GCLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83001EB9198DAD570099457D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83001EBA198DAD570099457D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83001EC2198DAD570099457D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83001EC3198DAD570099457D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83001EE2198DAD570099457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83001EE3198DAD570099457D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83001EE5198DAD570099457D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C583460464D3AE34D20E74E /* Pods-Joystick Memory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N2B325D9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Joystick Memory/Joystick Memory-Prefix.pch";
+				INFOPLIST_FILE = "Joystick Memory/Joystick Memory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83001EE6198DAD570099457D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8F634FCC634CD94E7323CF /* Pods-Joystick Memory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N2B325D9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Joystick Memory/Joystick Memory-Prefix.pch";
+				INFOPLIST_FILE = "Joystick Memory/Joystick Memory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		836E444D19B52D2E00B4717F /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AdHoc;
+		};
+		836E444E19B52D2E00B4717F /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E62475824E2D94605B1EFA0 /* Pods-Joystick Memory.adhoc.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N2B325D9B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Joystick Memory/Joystick Memory-Prefix.pch";
+				INFOPLIST_FILE = "Joystick Memory/Joystick Memory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83001EA6198DAD570099457D /* Build configuration list for PBXProject "Joystick Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83001EE2198DAD570099457D /* Debug */,
+				83001EE3198DAD570099457D /* Release */,
+				836E444D19B52D2E00B4717F /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83001EE4198DAD570099457D /* Build configuration list for PBXNativeTarget "Joystick Memory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83001EE5198DAD570099457D /* Debug */,
+				83001EE6198DAD570099457D /* Release */,
+				836E444E19B52D2E00B4717F /* AdHoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83001EA3198DAD570099457D /* Project object */;
+}
