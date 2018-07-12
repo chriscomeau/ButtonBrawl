@@ -1,4 +1,4 @@
-# Combos/ButtonBrawl
+# ButtonBrawl
 Casual fighting game insprired reflex game (prototype)
 
 ![logo](https://github.com/chriscomeau/Portfolio/blob/master/images/combo_icon.PNG)
@@ -15,11 +15,11 @@ Casual fighting game insprired reflex game (prototype)
 
 ##### Links
 
-* [GitHub project](https://github.com/chriscomeau/Combos)
+* [GitHub project](https://github.com/chriscomeau/ButtonBrawl)
 
 
 ##### Screenshot
 
-![screenshot 1](https://github.com/chriscomeau/Combos/blob/master/images/combo1.PNG)
-![screenshot 2](https://github.com/chriscomeau/Combos/blob/master/images/combo2.PNG)
-![screenshot 3](https://github.com/chriscomeau/Combos/blob/master/images/combo3.PNG)
+![screenshot 1](https://github.com/chriscomeau/ButtonBrawl/blob/master/images/combo1.PNG)
+![screenshot 2](https://github.com/chriscomeau/ButtonBrawl/blob/master/images/combo2.PNG)
+![screenshot 3](https://github.com/chriscomeau/ButtonBrawl/blob/master/images/combo3.PNG)
