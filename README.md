@@ -1,5 +1,8 @@
 # ButtonBrawl
+
 Casual fighting game insprired reflex game (prototype)
+
+**🚨 The app is currently in development. 🚨**
 
 ![logo](https://github.com/chriscomeau/Portfolio/blob/master/images/combo_icon.PNG)
 
